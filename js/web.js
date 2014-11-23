@@ -85,5 +85,8 @@ var replaceFaces = function(id){
 	
 		ctx.drawImage(imgFile,faceArray[i].x - 0.25 * width,faceArray[i].y - 0.25 * height,width,height);
 	}
+
+	w.setAttribute('display', 'block');
+
 	$('#resultsphotosdiv').append(w);
 }

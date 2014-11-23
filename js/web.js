@@ -87,6 +87,6 @@ var replaceFaces = function(id){
 	}
 
 	w.setAttribute('display', 'block');
-
+	w.setAttribute('clear', 'both');
 	$('#resultsphotosdiv').append(w);
 }

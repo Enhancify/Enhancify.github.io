@@ -1,4 +1,4 @@
-Cageification
-=============
+Enhancify.github.io
+===================
 
-Turns faces in images to our one true god.
+Makes photos better

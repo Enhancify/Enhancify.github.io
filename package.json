@@ -1,0 +1,25 @@
+{
+  "name": "Cageification",
+  "version": "0.1.0",
+  "description": "Replaces faces in images with Nic Cage",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "~4.9.x"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jmklonowski/Cageification"
+  },
+  "keywords": [
+    "node",
+    "nic",
+    "cage"
+  ],
+  "license": "MIT"
+}

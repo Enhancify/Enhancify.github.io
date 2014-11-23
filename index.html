@@ -23,7 +23,7 @@
     <script src="js/ie-emulation-modes-warning.js"></script>
     <script src="js/dropzone.js"></script>
     <script src="js/jquery-1.11.1.min.js"></script>
-
+    
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -63,12 +63,14 @@
             <form action="/file-upload" class="dropzone" id="my-awesome-dropzone"></form>
           </p>
           <p>
-            <button type="button" class="btn btn-lg btn-default">Enhance</button>
+            <button id = "cage_btn" type="button" class="btn btn-lg btn-default">Enhance</button>
           </p>
         </div>
-
         <div id="resultsdiv">
           <h1>Results</h1>
+          <div id="resultsphotosdiv">
+          </div>
+          <button id = "done_btn" type="button" class="btn btn-lg btn-default">Start Over</button>
         </div>
       </div>
     </div><!-- /.container -->
@@ -83,5 +85,27 @@
     <script src="js/ie10-viewport-bug-workaround.js"></script>
     
     <script src="js/web.js"></script>
+    
+    <!-- Facial recognition><!-->
+    
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="facedetection/dist/jquery.facedetection.js"></script>
+    <div id ="imageholder"></div>
+    
   </body>
+  
+  
+  <div style = 'display:none'>
+      <img id='nick1' src = 'img/nick1.png'></img>
+      <img id='nick2' src = 'img/nick2.png'></img>
+      <img id='nick3' src = 'img/nick3.png'></img>
+      <img id='nick4' src = 'img/nick4.png'></img>
+      <img id='nick5' src = 'img/nick5.png'></img>
+      <img id='nick6' src = 'img/nick6.png'></img>
+      <img id='nick7' src = 'img/nick7.png'></img>
+      <img id='nick8' src = 'img/nick8.png'></img>
+      <img id='nick9' src = 'img/nick9.png'></img>
+      <img id='nick10' src = 'img/nick10.png'></img>
+  </div>
+  
 </html>
